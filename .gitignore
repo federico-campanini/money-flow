@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Money Flow: personal financial data - never commit
+# Any Excel workbook anywhere in the repo (budget_data.xlsx, copies, backups)
+*.xlsx
+*.xlsm
+*.xls
+# Office / LibreOffice lock files and the app's atomic-save temp files
+~$*
+.~lock.*#
+*.xlsx.tmp
